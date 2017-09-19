@@ -30,7 +30,7 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-	color: #ffff00;
+	color: orange;
 	background-color: rgba(17, 17, 17, .2);
 }
 
@@ -38,6 +38,9 @@ nav.navbar.navbar-default {
 	font-family: 'Lobster', cursive;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 2px #0a0a0a;
+}
+li.coming-soon {
+  display: none;
 }
 /*end of nav*/
 
@@ -59,6 +62,9 @@ nav.navbar.navbar-default {
   margin: 0 5%;
 }
 
+.slide-four {
+  background-image: url(../images/thai_dancers.png);
+}
 .carousel-inner .item {
 	height: 700px;
 	background-size: cover;
@@ -66,7 +72,7 @@ nav.navbar.navbar-default {
 }
 
 .carousel-caption {
-	bottom: 110px;
+	bottom: 50px;
 }
 
 .carousel-caption h1 {
@@ -83,6 +89,11 @@ nav.navbar.navbar-default {
 .col-md-3{
   padding-right: 80px;
   padding-bottom: 50px;
+}
+
+#contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*footer*/
