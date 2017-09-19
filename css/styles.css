@@ -30,7 +30,7 @@ nav.navbar.navbar-default {
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-	color: #ffff00;
+	color: orange;
 	background-color: rgba(17, 17, 17, .2);
 }
 
@@ -38,6 +38,10 @@ nav.navbar.navbar-default {
 	font-family: 'Lobster', cursive;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+li.coming-soon{
+  display: none;
 }
 /*end of nav*/
 
@@ -59,6 +63,10 @@ nav.navbar.navbar-default {
   margin: 0 5%;
 }
 
+.slide-four {
+  background-image: url(../images/asian_dancers.png);
+}
+
 .carousel-inner .item {
 	height: 700px;
 	background-size: cover;
@@ -66,14 +74,13 @@ nav.navbar.navbar-default {
 }
 
 .carousel-caption {
-	bottom: 110px;
+	bottom: 50px;
 }
 
 .carousel-caption h1 {
 	color: #fff;
 	text-shadow: 4px 4px 5px #000000;
 }
-
 /*end of carousel*/
 
 .col-md-6{
@@ -85,10 +92,34 @@ nav.navbar.navbar-default {
   padding-bottom: 50px;
 }
 
+.jumbotron {
+	background-image: url(../images/trip_planning.png);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+  margin-top: 50px;
+}
+
+.jumbotron-contact{
+  background-image: url(../images/traveler_on_road.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-top: 50
+}
+
+/*contact*/
+#contact{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  /*margin-top: 50px:
+  margin-bottom: 50px;*/
+}
+
 /*footer*/
 #footer {
 	background-color: #adadad;
-	padding-top: 15px;
+	padding-top: 30px;
 }
 
 #footer p{
