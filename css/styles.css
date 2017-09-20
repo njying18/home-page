@@ -79,7 +79,6 @@ li.coming-soon {
 	color: #fff;
 	text-shadow: 4px 4px 5px #000000;
 }
-
 /*end of carousel*/
 
 .col-md-6{
@@ -99,7 +98,7 @@ li.coming-soon {
 /*footer*/
 #footer {
 	background-color: #adadad;
-	padding-top: 15px;
+	padding-top: 30px;
 }
 
 #footer p{
