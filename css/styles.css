@@ -112,36 +112,36 @@ li.coming-soon {
 }
 
 /*footer*/
-#footer {
+footer {
 	background-color: #adadad;
 	padding-top: 30px;
 }
 
-#footer p{
+footer p{
 	color: #000000;
 }
 
-#footer a {
+footer a {
 	color: #000000;
 	text-decoration: none;
 }
 
-#footer a:hover {
+footer a:hover {
 	color: #0087b3;
 }
 
-#footer .fa:focus, .fa:hover {
+footer .fa:focus, .fa:hover {
     text-decoration: none;
     color: #0087b3;
 }
 
-#footer .fine-print {
+footer .fine-print {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	color: #969696;
 }
 
-#footer .glyphicon {
+footer .glyphicon {
 	color: #a9a9a9;
 	margin-bottom: 20px;
 	font-size: 25px;
@@ -153,7 +153,7 @@ li.coming-soon {
 	padding: 10px;
 }
 
-#footer .glyphicon:hover {
+footer .glyphicon:hover {
 	background-color: #0087b3;
 	color: #FFFFFF;
 }
