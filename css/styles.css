@@ -98,6 +98,13 @@ li.coming-soon {
   margin-top: 50px;
 }
 
+.jumbotron-contact {
+  background-image: url(../images/traveler_on_road.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-top: 50px;
+}
 
 #contact {
   padding-top: 30px;
