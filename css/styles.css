@@ -39,8 +39,7 @@ nav.navbar.navbar-default {
 	color: #FFFFFF;
 	text-shadow: 1px 1px 2px #0a0a0a;
 }
-
-li.coming-soon{
+li.coming-soon {
   display: none;
 }
 /*end of nav*/
@@ -64,9 +63,8 @@ li.coming-soon{
 }
 
 .slide-four {
-  background-image: url(../images/asian_dancers.png);
+  background-image: url(../images/thai_dancers.png);
 }
-
 .carousel-inner .item {
 	height: 700px;
 	background-size: cover;
@@ -92,6 +90,7 @@ li.coming-soon{
   padding-bottom: 50px;
 }
 
+
 .jumbotron {
 	background-image: url(../images/trip_planning.png);
 	background-size: cover;
@@ -111,9 +110,7 @@ li.coming-soon{
 /*contact*/
 #contact{
   padding-top: 30px;
-  padding-bottom: 50px;
-  /*margin-top: 50px:
-  margin-bottom: 50px;*/
+  padding-bottom: 30px;
 }
 
 /*footer*/
