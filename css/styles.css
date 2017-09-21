@@ -90,6 +90,15 @@ li.coming-soon {
   padding-bottom: 50px;
 }
 
+.jumbotron {
+  background-image: url(../images/trip_planning.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-top: 50px;
+}
+
+
 #contact {
   padding-top: 30px;
   padding-bottom: 30px;
